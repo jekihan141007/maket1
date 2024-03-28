@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.bosh{
+			width: 1000px;
+			margin: 0 auto;	
+		}
+		.block1{
+			position: relative;
+		}
+		.rasm1 img{
+			width: 1000px;
+			position: absolute;
+		}
+		.block1_one{
+			position: absolute;
+			color: white;
+			top: 24px;
+			left: 170px;
+			font-size: 20px;
+		}
+		.block1_two{
+			position: absolute;
+			color: white;
+			top: 30px;
+			right: 500px;
+			font-size: 13px;
+		}	
+		.block1_three{
+			position: absolute;
+			color: white;
+			top: 30px;
+			right: 420px;
+			font-size: 13px;
+		}
+		.block1_four{
+			position: absolute;
+			color: white;
+			top: 30px;
+			right: 350px;
+			font-size: 13px;
+		}
+		.block1_five img{
+			position: absolute;
+			color: white;
+			top: 35px;
+			right: 208px;
+			font-size: 5px;
+			width: 10px;
+		}
+		.block1_six{
+			position: absolute;
+			color: white;
+			top: 30px;
+			right: 150px;
+		}
+		.block1_seven img{
+			position: absolute;
+			color: white;
+			top: 140px;
+			left: 170px;
+			width: 60px;
+		}
+		.block1_eight{
+			position: absolute;
+			color: #FFC700;;
+			left: 240px;
+			top: 136px;
+			font-size: 13px;
+		}
+		.block1_nine{
+			position: absolute;
+			color: white;
+			left: 170px;
+			top: 170px;
+			font-size: 30px;
+			width: 290px;
+		}
+		.block1_ten{
+			position: absolute;
+			color: white;
+			left: 170px;
+			top: 250px;
+			font-size: 12px;
+			width: 290px;
+			letter-spacing: .5px;
+		}
+		.block2_one_one{
+			position: absolute;
+			/*border: 2px solid red;*/
+			width: 500px;
+			height: 200px;
+		}
+		.block1_elevn img{
+			position: absolute;
+			color: white;
+			width: 10px;
+			height: 15px;
+			left: 240px;
+			top: 250px;
+		}
+		.block2{
+			position: relative;
+			top: 400px;
+			background-color: #333333;
+			width: 1000px;
+			height: 1200px;
+		}
+		.one_one{
+			position: absolute;
+			width: 400px;
+			height: 300px;
+		
+			top: 100px;
+			left: 120px;
+		}
+		.block2 .one .one_one .block1 img{
+			width: 50px;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		.block22{
+			color: #FFA800;
+			font-size: 12px;
+			margin-top: 5px;
+			margin-left: 75px;
+		}
+		.block33{
+			color: white;
+			width: 180px;
+			font-size: 25px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}
+		.block4{
+			color: white;
+			font-size: 11px;
+			width: 300px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}
+		.block5{
+			color: #FFA800;
+			font-size: 12px;
+			margin-left: 10px;
+			margin-top: 15px;
+		}
+		.block6 img{
+			width: 17px;
+		}
+		.block6{
+			margin-left: 65px;
+			margin-top: -17px;
+		}
+		.one_two{
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			/*border: 2px solid red;*/
+			bottom: 550px;
+			right: 120px;
+		}
+		.block7 img{
+			width: 300px;
+			height: 300px;
+			margin-top: -1000px;
+			border-radius: 100%;
+		}
+		.two_onee{
+			position: absolute;
+			width: 400px;
+			height: 300px;
+			/*border: 2px solid red;*/
+			top: 500px;
+			left: 590px;
+		}
+		.block77 img{
+			width: 300px;
+			height: 300px;
+			margin-top: 470px;
+			margin-left: 130px; 
+			border-radius: 100%;
+			/* width: 300px;
+            height: 465px;
+            top: 1834px;
+            left: 286px; */
+
+		}
+		.block11 img{
+			width: 50px;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		.block777 img{
+			width: 300px;
+			height: 300px;
+			/*margin-top: 470px;*/
+			margin-left: 600px;
+			margin-top: 80px;
+			border-radius: 100%;
+		}
+		.block111 img{
+			width: 50px;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		.three_one{
+			position: absolute;
+			width: 400px;
+			height: 300px;
+			/*border: 2px solid red;*/
+			top: 890px;
+			left: 130px;
+		}
+		.block222{
+			color: #FFA800;
+			font-size: 12px;
+			margin-top: 5px;
+			margin-left: 75px;
+		}
+		.block333{
+			color: white;
+			width: 180px;
+			font-size: 25px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}
+		.block3{
+			position: relative;
+			width: 1000px;
+			height: 230px;
+			background-color: black;
+			top: 400px;
+		}
+		.block3_inside_one{
+			color: white;
+			width: 200px;
+			position: absolute;
+			margin: 30px 145px;
+			font-size: 20px;
+		}
+		.block3_inside_two{
+			color: white;
+			width: 170px;
+			position: absolute;
+			margin: 80px 145px;
+			font-size: 12px;
+		}
+		.block3_inside2{
+			position: absolute;
+			/*border:2px solid red;*/
+			width: 200px;
+			height: 150px;
+			margin-top: 30px;
+			margin-left: 450px;
+		}
+		.block3_inside3{
+			position: absolute;
+			/*border:2px solid red;*/
+			width: 200px;
+			height: 150px;
+			margin-top: 30px;
+			margin-left: 688px;
+		}
+		.block3_inside2_one{
+			position: absolute;
+			color:  #FFA800;
+			font-size: 13px;
+		}
+		.block3_inside2_two{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 23px;
+		}
+		.block3_inside2_three{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 41px;
+		}
+		.block3_inside2_four{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 59px;
+		}
+		.block3_inside2_five{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 77px;
+		}
+		.block3_inside2_six{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top:95px;
+		}
+		.block3_inside3_one{
+			position: absolute;
+			color:  #FFA800;
+			font-size: 13px;
+		}
+		.block3_inside3_two{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 25px;
+		}
+		.block3_inside3_three{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 45px;
+		}
+		.block3_inside3_four{
+			position: absolute;
+			color:  white;
+			font-size: 10px;
+			top: 65px;
+		}
+		.block3_inside3_logo{
+			margin-top: 95px;
+		}
+		.img2{
+			margin-left: 15px;
+		}
+		.block3_inside4{
+			position: relative;
+			top: 190px;
+			left: 60px;
+			/*border: 2px solid red;*/
+			width: 400px;
+		}
+		.block3_inside4_one{
+			color: gray;
+			font-size: 13px;
+		}
+		.block1_one a{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block1_two a{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block1_three a{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block1_four a{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block1_six a{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block1_ten a{
+						color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		.block5 a{
+			color:  #FFA800;
+			list-style: none;
+			text-decoration: none;
+		}
+		.kitob{
+			color: white;
+			list-style: none;
+			text-decoration: none;
+		}
+		@media screen and (max-width: 1100px){
+			.bosh{
+				margin: 0 auto;
+				width: 500px;
+			}
+			.block1{
+				width: 500px;
+				position: relative;
+			}
+			.rasm1 img{
+				width: 600px;
+				height: 400px;
+				position: absolute;
+			}
+			.block1_one{
+				top: 30px;
+				left: 220px;
+				font-size: 25px;
+			}
+			.block2_one_one{
+				margin-top: 100px;
+				text-align: center;
+				margin-left: -20px;
+			}
+			.block1_eight{
+				margin-left: 60px;
+			}
+			.block1_seven img{
+				margin-left: 60px;
+			}
+			.block1_six{
+				top: 70px;
+				left: 255px;
+			}
+			.block1_two{
+				top: 150px;
+				left: 150px;
+				width: 150px;
+			}
+			.block1_four{
+				top: 150px;
+				left: 270px;
+				width: 150px;
+			}
+			.block1_six{
+				top: 90px;
+				left: 265px;
+				width: 150px;
+			}
+			.block1_three{
+				top: 150px;
+				left: 350px;
+				width: 150px;
+			}
+			.block1_five img{
+				top: 95.5px;
+				left: 250px;
+			}
+			.block2{
+				width: 600px;
+				position: relative;
+				height: 2050px;
+			}
+			.one_one{
+				top: 75px;
+				left: 150px;
+				text-align: center;
+			}
+			.block33{
+				margin-left: 60px;
+			}
+			.block11 img{
+				margin-left: 60px;
+			}
+			.block22{
+				margin-left: -50px;
+			}
+			.block5{
+				margin-left: -110px;
+			}
+			.block6 img{
+				margin-left: -90px;	
+			}
+			.one_two{
+				top: 650px;
+				left: 150px;
+			}
+			.two_two{
+				top: 75px;
+				left: 150px;
+				text-align: center;
+				position: relative;
+			}
+			.two_onee{
+				/*position: absolute;*/
+				top: 750px;
+				left: 150px;
+				text-align: center;
+			}
+			.two_two{
+				top: 540px;
+				left: -70px;
+			}
+			.three_one{
+				top: 1380px;
+				left: 160px;
+				text-align: center;
+			}
+			.three_two{
+				margin-top: 820px;
+				margin-left: -450px;
+			}
+			.block3{
+				position: relative;
+				width: 600px;
+				position: relative;
+				height: 660px;
+			}
+			.block3_inside{
+				position: absolute;
+				margin-top: 50px;
+				margin-left: 60px;
+				text-align: center;
+			}
+			.block3_inside2{
+				position: absolute;
+				margin-top: 230px;
+				margin-left: 250px;
+				text-align: center;
+			}
+			.block3_inside3{
+				position: absolute;
+				margin-top: 410px;
+				margin-left: 250px;
+				text-align: center;
+			}
+			.block3_inside_one{
+				font-size: 30px;
+			}
+			.block3_inside_two{
+				font-size: 13px;
+				margin-left: 115px;
+				letter-spacing: 2px;
+				width: 250px;
+			}
+			.block3_inside2_one{
+				font-size: 15px;
+			}
+			.block3_inside2_two{
+				font-size: 13px;
+				margin-left: 20px;
+			}		
+			.block3_inside2_three{
+				font-size: 13px;
+				margin-left:-3px;
+			}
+			.block3_inside2_four{
+				font-size: 13px;
+				margin-left: 20px;
+			}
+			.block3_inside2_five{
+				font-size: 13px;
+				margin-left: 25px;
+			}
+			.block3_inside2_six{
+				font-size: 13px;
+				margin-left: 17px;
+			}
+			.block3_inside3_one{
+				font-size: 15px;
+			}
+			.block3_inside3_two{
+				font-size: 13px;
+				margin-left: 30px;
+			}
+			.block3_inside3_three{
+				font-size: 13px;
+				margin-left: 40px;
+			}
+			.block3_inside3_four{
+				font-size: 13px;
+				margin-left: 38px;
+			}
+			.block3_inside3_logo{
+				margin-top: 100px;
+				margin-left: -97px;
+			}
+			.block3_inside4_one{
+				position: absolute;
+				margin-top:420px;
+			}
+			.block1_elevn img{
+				margin-left: 115px;
+			}
+			.block111 img{
+				margin-left: 40px;
+			}
+			.block222{
+				margin-left: -20px;
+			}
+			.block333{
+				margin-left: 60px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="bosh">
+		<div class="block1">
+			<div class="rasm1">
+				<img src="daraxt.jpg">
+			</div>
+			<div class="block1_one_one">
+				<div class="block1_one"><a href="#">TRAVELER</a></div>
+				<div class="block1_two"><a href="#">Travel Guide</a></div>
+				<div class="block1_three"><a href="#">About Us</a></div>
+				<div class="block1_four"><a href="#">Blog</a></div>
+				<div class="block1_five"><img src="codicon_account.png"></div>
+				<div class="block1_six"><a href="#">Account</a></div>
+			</div>
+			<div class="block2_one_one">
+				<div class="block1_seven"><img src="Line 20.png"></div>
+				<div class="block1_eight">WELCOME</div>
+				<div class="block1_nine">Explore New Horitzons & Discover The world</div>
+				<div class="block1_ten"><a href="#">scrool down </a></div>
+				<div class="block1_elevn"><img src="Arrow 5.png"></div>
+			</div>
+			</div>
+		<div class="block2">
+			<div class="one">
+				<div class="one_one">
+					<div class="block11"><img src="Line 21.png"></div>
+					<div class="block22">GET STARTED</div>
+					<div class="block33">What kind of traveler are you?</div>
+					<div class="block4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis cursus vel sollicitudin massa. Sed accumsan congue porta donec et, neque odio id adipiscing. Facilisis blandit sed faucibus massa suspendisse rhoncus massa nulla. Ut id montes, enim vivamus.
+					Ut id montes, enim vivamus</div>
+					<div class="block5"><a href="#">read more </a></div>
+					<div class="block6"><img src="Arrow 6.png"></div>
+				</div>
+				<div class="one_two">
+					<div class="block7"><img src="tog.jpg"></div>
+				</div>
+			</div>
+
+			<div class="two">
+				<div class="two_two">
+					<div class="block77"><img src="ormon.jpg"></div>
+				</div>
+				<div class="two_onee">
+					<div class="block111"><img src="Line 21.png"></div>
+					<div class="block22">HIKING ESSENTIALS</div>
+					<div class="block33">Picking the right Hiking Gear!</div>
+					<div class="block4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis cursus vel sollicitudin massa. Sed accumsan congue porta donec et, neque odio id adipiscing. Facilisis blandit sed faucibus massa suspendisse rhoncus massa nulla. Ut id montes, enim vivamus.
+					Ut id montes, enim vivamus</div>
+					<div class="block5"><a href="#">read more </a></div>
+					<div class="block6"><img src="Arrow 6.png"></div>
+				</div>
+			</div>
+			<div class="three">
+				<div class="three_one">
+					<div class="block111"><img src="Line 21.png"></div>
+					<div class="block222">WHERE YOU GO IS THE KEY</div>
+					<div class="block333">Understand Your Map & Timing</div>
+					<div class="block4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis cursus vel sollicitudin massa. Sed accumsan congue porta donec et, neque odio id adipiscing. Facilisis blandit sed faucibus massa suspendisse rhoncus massa nulla. Ut id montes, enim vivamus.
+					Ut id montes, enim vivamus</div>
+					<div class="block5"><a href="#">read more </a></div>
+					<div class="block6"><img src="Arrow 6.png"></div>
+				</div>
+				<div class="three_two">
+					<div class="block777"><img src="suv.jpg"></div>
+				</div>
+			</div>
+		</div>
+		<div class="block3">
+			<div class="block3_inside">
+				<div class="block3_inside_one">TRAVELER</div>
+				<div class="block3_inside_two">Get our there & discover your next
+				slope mountain & destionation</div>
+			</div>
+			<div class="block3_inside2">
+				<div class="block3_inside2_one">More on The Blog</div>
+				<div class="block3_inside2_two"><a class="kitob" href="#">About MNTN</a></div>
+				<div class="block3_inside2_three"><a class="kitob"  href="#">Contribubors & Writers</a></div>
+				<div class="block3_inside2_four"><a class="kitob"  href="#">Write For Us</a></div>
+				<div class="block3_inside2_five"><a class="kitob"  href="#">Contact Us</a></div>
+				<div class="block3_inside2_six"><a class="kitob"  href="#">Privacy Policy</a></div>
+			</div>
+			<div class="block3_inside3">
+					<div class="block3_inside3_one">More on MNTN</div>
+					<div class="block3_inside3_two"><a class="kitob"  href="#">The team</a></div>
+					<div class="block3_inside3_three"><a class="kitob"  href="#">Jobs</a></div>
+					<div class="block3_inside3_four"><a class="kitob"  href="#">Press</a></div>
+				<div class="block3_inside3_logo">
+					<a class="kitob"  href="#"><img src="Vector.png" class="img1"></a>
+					<a class="kitob"  href="#"><img src="Vector (1).png" class="img2"></a>
+				</div>
+			</div>
+			<div class="block3_inside4">
+				<div class="block3_inside4_one">Copyright @ 2021. Digitech with love</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
